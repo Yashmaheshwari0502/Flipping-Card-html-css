@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(18,19,32);
+}
+
+
+.ball-left{
+    margin-top: 10rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color:red ;
+}
+
+.ball-right{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color:red ;
+}
