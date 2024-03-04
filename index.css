@@ -1,19 +1,142 @@
-body{
-    background-color: rgb(18,19,32);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(18, 19, 32);
 }
 
 
-.ball-left{
-    margin-top: 10rem;
-    width: 15rem;
-    height: 15rem;
+.circlesall {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball-left {
+    background: linear-gradient(to right,
+            rgba(166, 29, 184),
+            rgba(255, 255, 255));
+}
+
+.ball-right {
+    margin-left: 10vh;
+    background: linear-gradient(to left,
+            rgb(166, 29, 184),
+            rgba(255, 255, 255));
+}
+
+
+.ball-left {
+
+    margin-bottom: 50vh;
+    width: 16rem;
+    height: 16rem;
     border-radius: 50%;
-    background-color:red ;
 }
 
-.ball-right{
-    width: 15rem;
-    height: 15rem;
+.ball-right {
+
+    width: 16rem;
+    height: 16rem;
     border-radius: 50%;
-    background-color:red ;
+
 }
+
+
+
+.card {
+    position: absolute;
+    margin-bottom: 19vh;
+    width: 25rem;
+    height: 14rem;
+    border-radius: 20px;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(7, 7, 7, );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding-left: 18px;
+
+
+}
+
+.first-row {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firsr-row-first-part{
+    display: flex;
+    align-items: center;
+}
+
+.second-row{
+    margin-top: 30px;
+}
+.third-row {
+    display: flex;
+    margin-top: -25px;
+    
+}
+
+
+.third-row p:nth-child(n) {
+    margin-left: 10px;
+}
+
+.third-row p:first-child {
+    margin-left: 0px;
+}
+
+
+.fourth-row {
+    display: flex;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth-row-second-column {
+    line-height: 1px;
+    margin-right: 12px;
+}
+
+.White-big-text {
+    color: white;
+}
+
+
+
+#card-name {
+    color: white;
+}
+
+.card-number {
+    margin-top: -20px;
+    font-size: 10px;
+    color: #fff;
+}
+
+#master-card-logo{
+    width: 5rem;
+    height: 4rem;
+}
+
+#master-card-writing{
+    color: white;
+}
+
+#sim-card{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 15px;
+}
+
